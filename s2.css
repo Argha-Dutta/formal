@@ -1,0 +1,78 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color:aquamarine;
+  }
+  
+  #registration-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 70px;
+    border: 25px solid #6f44be;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;
+  }
+  
+
+  .status {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+  
+
+  input:invalid {
+    border-color: #e74c3c;
+  }
+  
+  
+  input:valid {
+    border-color: #2ecc71;
+
+  }
+  
+
+  #password-match-status {
+    font-size: 14px;
+  }
+  
+  #age-status {
+    font-size: 14px;
+  }
+  
+  
+  #submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+  }
+  
+  
+  #submit-button:hover {
+    background-color: #2980b9;
+  }
+  
